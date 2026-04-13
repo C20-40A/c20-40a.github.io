@@ -16,9 +16,16 @@
 		<p class="mt-8">
 			<a
 				href={githubUrl}
-				class="text-lg underline decoration-1 underline-offset-4 transition-opacity hover:opacity-70"
+				class="inline-flex items-center justify-center transition-opacity hover:opacity-70"
+				aria-label="Open C20 GitHub profile"
+				target="_blank"
+				rel="noreferrer"
 			>
-				GitHub
+				<img
+					src="/github.svg"
+					alt="GitHub"
+					class="h-10 w-10 dark:invert"
+				/>
 			</a>
 		</p>
 	</div>
